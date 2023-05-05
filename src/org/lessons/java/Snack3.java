@@ -11,10 +11,9 @@ public class Snack3 {
 		
 		int sum = 0;
 		
-		for (int i = 0; i < numbers.length; i++) {
-			if (i % 2 != 0) {
-				sum += numbers[i];
-			}
+		for (int i = 1; i < numbers.length; i+=2) {
+			int val = numbers[i];
+			sum += val;
 		}
 		System.out.println(sum);
 	}
