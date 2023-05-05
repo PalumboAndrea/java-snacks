@@ -12,6 +12,9 @@ public class Snack5 {
 		
 		System.out.println("Scrivi un numero:");
 		int userNumber = sc.nextInt();
+		
+		sc.close();
+		
 		int[] numberArray = new int[userNumber];
 		
 		for (int i = 0; i < userNumber; i++) {

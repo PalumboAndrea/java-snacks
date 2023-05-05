@@ -12,6 +12,8 @@ public class Snack6 {
 		System.out.println("Scrivi un numero:");
 		int userInput = sc.nextInt();
 		
+		sc.close();
+		
 		int sum = 0;
 		
 		while (sum < userInput) {

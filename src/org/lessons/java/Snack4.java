@@ -8,6 +8,9 @@ public class Snack4 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Scrivi una parola:");
 		String userInput = sc.nextLine();
+		
+		sc.close();
+		
 		char[] charArray = userInput.toCharArray();
 			
 		for (int i = 0; i<charArray.length/2; i++) {
