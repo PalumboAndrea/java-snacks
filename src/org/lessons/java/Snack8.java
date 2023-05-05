@@ -28,4 +28,4 @@ public class Snack8 {
 		System.out.println(Arrays.asList(even));
 		System.out.println(Arrays.asList(odd));
 	}
-}
+} 

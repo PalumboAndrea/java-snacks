@@ -9,9 +9,10 @@ public class Snack7 {
 		
 		int rndNumber = 1;
 		
-		while (rndNumber % 15 != 0) {
-			rndNumber = rnd.nextInt(100);
+		while (rndNumber % 3 != 0 || rndNumber % 5 != 0) {
+			rndNumber = rnd.nextInt(101);
 			System.out.println(rndNumber);
-		}
+		};
+		System.out.println(rndNumber);
 	}
 }
